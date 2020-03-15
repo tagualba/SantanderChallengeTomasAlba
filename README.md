@@ -1,2 +1,12 @@
 # SantanderChallengeTomasAlba
 SantanderChallengeTomasAlba
+
+
+El poyecto consiste en 2 partes Back-End y FrontEnd
+
+El backEnd realizado en NetCore v3.1.102.
+
+El FrontEnd realizado en VUE.js v2.9.6 ##el mismo no fue finalizado debido a ciertos inconvenientes/falta de conocimiento.
+
+
+

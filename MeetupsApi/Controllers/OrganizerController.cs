@@ -27,10 +27,10 @@ namespace MeetupsApi.Controllers
 
         [HttpGet]
         [Route("api/create")]
-        public ActionResult<String> Create(int userOrganizer, string title,DateTime date,int canceled,int guests)
+        public ActionResult<String> Create(int userOrganizer, string title,DateTime date,int guests)
         {
             var metupModel = new MeetupModel();
-            return metupModel.Create( userOrganizer,  title,date ,canceled,guests);            
+            return metupModel.Create( userOrganizer,  title,date ,guests);            
         }
 
         [HttpGet]

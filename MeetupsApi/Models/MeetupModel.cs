@@ -49,7 +49,7 @@ namespace MeetupsApi.Models
             
         }
 
-        public string Create(int userOrganizer, string title,DateTime date,int canceled,int guests)
+        public string Create(int userOrganizer, string title,DateTime date,int guests)
         {
             Console.WriteLine("MeetupModel.Create : START");
             try
@@ -63,7 +63,7 @@ namespace MeetupsApi.Models
                     met.UserOrganizer=userOrganizer; 
                     met.Date = date;
                     met.Title=title;
-                    met.Canceled=canceled;
+                    met.Canceled=-1;
                     met.Guests=guests;
                     context.Meetups.Add(met);
                     context.SaveChanges();
